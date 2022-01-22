@@ -58,9 +58,9 @@ Now, to start getting data you have to initialize ForzaApi in the loop and pass 
     
 You can now start getting data! Use ExampleFile.java to see all possible functions, aswell as what they return.
 
-    float engineMaxRPM     = api.getEngineMaxRpm();
-    float engineIdleRPM    = api.getEngineIdleRpm();
-    float engineCurrentRPM = api.getEngineCurrentRpm();
+    float engineMaxRpm     = api.getEngineMaxRpm();
+    float engineIdleRpm    = api.getEngineIdleRpm();
+    float engineCurrentRpm = api.getEngineCurrentRpm();
     
     System.out.println("Current RPM: " + engineCurrentRpm);
     System.out.println("Max RPM: " + engineMaxRpm);
