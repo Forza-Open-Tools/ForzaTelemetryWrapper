@@ -9,7 +9,7 @@ which has the variables for every set of data. It also contains the full UDP soc
 
 This will also work on android, but note that you cannot update any views on the main thread so runOnUiThread() is required.
 This goes for using the Datagram functions as well (no network on main thread), which can be overriden with a Thread/Runnable.
-If you'd like to see an example of an android app using this data, check out this repo: https://github.com/Ldalvik/ForzaTelemetryAndroidApp
+If you'd like to see an example of an android app using this data, check out this repo: https://github.com/Forza-Open-Tools/ForzaTelemetryAndroidApp
 
 To use ForzaApi, initialize it and with a value of null. It will be re-initialized in a loop when data is ready to be received and parsed.
 
